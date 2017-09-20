@@ -14,10 +14,30 @@ int main()
 	{
 	    exit(0);
 	}
-	else if(strcmp(cmd,"pwd") == 0)
+	else if(strcmp(cmd,"others") == 0)
 	{
- 	   system. pwd;
+ 	    printf("others\n");
 	}
+	else if(strcmp(cmd,"echo") == 0)
+	{
+	    printf("%s\n",cmd);
+	}
+	else if(strcmp(cmd,"back") == 0)
+	{
+	    continue;
+	}
+	else if(strcmp(cmd,"amounts") == 0)
+	{
+	    printf("amounts = 8\n");
+	}
+	else if(strcmp(cmd,"change") == 0)
+	{
+	    printf("change\n");
+	}
+	else if(strcmp(cmd,"open") == 0)
+	{
+	    printf("open\n");
+	}   
         else
         {
  	    printf("Wrong cmd!\n");
