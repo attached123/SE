@@ -124,7 +124,7 @@ int DelLinkTableNode(tLinkTable *pLinkTable,tLinkTableNode * pNode)
 
 /*
  * Search a LinkTableNode from LinkTable
- * int Conditon(tLinkTableNode * pNode);
+ * int Conditon(tLinkTableNode * pNode,void * args);
  */
 tLinkTableNode * SearchLinkTableNode(tLinkTable *pLinkTable, int Conditon(tLinkTableNode * pNode,void * args),void * args)
 {
